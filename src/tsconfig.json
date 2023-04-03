@@ -1,0 +1,9 @@
+{
+  "extends": "@quasar/app-webpack/tsconfig-preset",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es2021",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  }
+}
